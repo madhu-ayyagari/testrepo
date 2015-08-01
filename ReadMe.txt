@@ -1,1 +1,2 @@
-Hello, Git Minor Edit after some more time 
+Moving from TFS to Git is fun
+First Git Repo created. 
