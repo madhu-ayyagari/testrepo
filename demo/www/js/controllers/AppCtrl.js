@@ -2,7 +2,7 @@
 
 (function(){
 
-	var ctrlModule = angular.module('starter.controllers',[]);
+	var ctrlModule = angular.module('starter.controllers',['ngOpenFB']);
 	ctrlModule.controller('AppCtrl',['$scope', '$ionicModal', '$ionicPopover', '$timeout',function($scope,$ionicModal,$ionicPopover,$timeout){
 		// Form data for the login modal
 	    $scope.loginData = {};
